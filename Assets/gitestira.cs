@@ -5,13 +5,10 @@ using UnityEngine;
 public class NewBehaviourScript : MonoBehaviour
 {
     [SerializeField] GameObject ocaan;
-    // Start is called before the first frame update
     void Start()
     {
-        
+        ocaan.SetActive(false);
     }
-
-    // Update is called once per frame
     void Update()
     {
         

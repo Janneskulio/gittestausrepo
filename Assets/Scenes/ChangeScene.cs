@@ -9,8 +9,10 @@ public class ChangeScene : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown("Fire1"))
+        if (Input.GetButtonDown("Fire1"))
+        {
             SceneManager.LoadScene("JanneScene");
+        }
     }
 
 }

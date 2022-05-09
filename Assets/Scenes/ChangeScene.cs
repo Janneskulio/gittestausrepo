@@ -9,7 +9,7 @@ public class ChangeScene : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown("Fire1"))
             SceneManager.LoadScene("JanneScene");
     }
 

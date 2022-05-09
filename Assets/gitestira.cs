@@ -1,16 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NewBehaviourScript : MonoBehaviour
 {
-    [SerializeField] GameObject ocaan;
+    
     void Start()
     {
-        ocaan.SetActive(false);
+        
     }
     void Update()
     {
-        
+        if(Input.GetButtonDown("Fire1"))
+        {
+            SceneManager.LoadScene("MarkunScene");
+        }
     }
 }

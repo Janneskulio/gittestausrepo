@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class scenechanger : MonoBehaviour
 {
-    public void Scene1()
+    public void Update()
     {
-        if(Input.GetKeyDown("Fire1"))
+        if(Input.GetButtonDown("Fire1"))
         {
             SceneManager.LoadScene("danielscene");
         }

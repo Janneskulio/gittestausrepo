@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MarkunScene.unity
     guid: 6185e485370fc404085e46dc68795cd8
+  - enabled: 1
+    path: Assets/Scenes/JanneScene.unity
+    guid: 828585396b1f42847ba23a849dbfb10f
+  - enabled: 1
+    path: Assets/Scenes/danielscene.unity
+    guid: feebd873e7f365949a8a88095b86d571
   m_configObjects: {}
